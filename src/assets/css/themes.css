@@ -1,0 +1,420 @@
+/*@import url(./cerulean-theme.css);
+@import url(./darkly-theme.css);
+@import url(./lux-theme.css);
+@import url(./themes/solar-theme.css);*/
+
+
+.themebody{
+  background: var(--bs-body-bg);
+  color: var(--bs-heading-color,inherit);
+}
+
+.themecolorflex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.themecolor{
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  margin-right: -0.8rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+}
+
+.themecolorprimary{
+  background: var(--bs-primary);
+}
+.themecolorsecondary{
+  background: var(--bs-secondary);
+}
+.themecolorsuccess{
+  background: var(--bs-success);
+}
+.themecolordanger{
+  background: var(--bs-danger);
+}
+.themecolorinfo{
+  background: var(--bs-info);
+}
+
+.auto, .dark, .light {
+  background: #5d87ff !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.auto div {
+  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(33,37,41,1) 51%, rgba(33,37,41,1) 100%);
+  color: #2a3547;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.auto div .themecolorflex .themecolorprimary,
+.light div .themecolorflex .themecolorprimary,
+.dark div .themecolorflex .themecolorprimary{       
+  background: #5d87ff;
+}
+
+.auto div .themecolorflex .themecolorsecondary,
+.light div .themecolorflex .themecolorsecondary,
+.dark div .themecolorflex .themecolorsecondary{       
+  background: #49beff;
+}
+.auto div .themecolorflex .themecolorsuccess,
+.light div .themecolorflex .themecolorsuccess,
+.dark div .themecolorflex .themecolorsuccess{
+  background: #13deb9;
+}
+.auto div .themecolorflex .themecolordanger,
+.light div .themecolorflex .themecolordanger,
+.dark div .themecolorflex .themecolordanger{        
+  background: #fa896b;
+}
+.auto div .themecolorflex .themecolorinfo,
+.light div .themecolorflex .themecolorinfo,
+.dark div .themecolorflex .themecolorinfo{        
+  background: #539bff;
+}
+
+.dark div {
+  background: #212529;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+/*----------------------*/
+.light div {
+  background: white;
+  color: #2a3547;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+/*----------------------*/
+
+.ceruelan{
+  background: linear-gradient(#50b3eb,#2fa4e7 60%,#2c9ad9) !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.ceruelan div {
+  background: white;
+  color: #2a3547;
+  font-family: 'system-ui';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.cerulean div .themecolorflex .themecolorprimary{       
+  background: #2fa4e7;
+}
+
+.cerulean div .themecolorflex .themecolorsecondary{       
+  background: #e9ecef;
+}
+.cerulean div .themecolorflex .themecolorsuccess{
+  background: #73a839;
+}
+.cerulean div .themecolorflex .themecolordanger{        
+  background: #c71c22;
+}
+.cerulean div .themecolorflex .themecolorinfo{        
+  background: #033c73;
+}
+
+
+/*----------------------*/
+
+.darkly{
+  background: #375a7f !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.darkly div {
+  background: #222;
+  color: white;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.darkly div .themecolorflex .themecolorprimary{       
+  background: #375a7f;
+}
+
+.darkly div .themecolorflex .themecolorsecondary{       
+  background: #444;
+}
+.darkly div .themecolorflex .themecolorsuccess{
+  background: #00bc8c;
+}
+.darkly div .themecolorflex .themecolordanger{        
+  background: #e74c3c;
+}
+.darkly div .themecolorflex .themecolorinfo{        
+  background: #3498db;
+}
+
+/*----------------------*/
+
+.lux{
+  background: #1a1a1a !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.lux div {
+  background: white;
+  color: black;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.lux div .themecolorflex .themecolorprimary{       
+  background: #1a1a1a;
+}
+
+.lux div .themecolorflex .themecolorsecondary{       
+  background: #fff;
+}
+.lux div .themecolorflex .themecolorsuccess{
+  background: #4bbf73;
+}
+.lux div .themecolorflex .themecolordanger{        
+  background: #d9534f;
+}
+.lux div .themecolorflex .themecolorinfo{        
+  background: #1f9bcf;
+}
+
+/*----------------------*/
+
+.litera{
+  background: #3459e6 !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.litera div {
+  background: white;
+  color: black;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.litera div .themecolorflex .themecolorprimary{       
+  background: #3459e6;
+}
+
+.litera div .themecolorflex .themecolorsecondary{       
+  background: #fff;
+}
+.litera div .themecolorflex .themecolorsuccess{
+  background: #2fb380;
+}
+.litera div .themecolorflex .themecolordanger{        
+  background: #da292e;
+}
+.litera div .themecolorflex .themecolorinfo{        
+  background: #287bb5;
+}
+
+/*----------------------*/
+
+.solar{
+  background: #9a7400 !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.solar div {
+  background: #002b36;
+  color: white;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.solar div .themecolorflex .themecolorprimary{       
+  background: #b58900;
+}
+
+.solar div .themecolorflex .themecolorsecondary{       
+  background: #839496;
+}
+.solar div .themecolorflex .themecolorsuccess{
+  background: #2aa198;
+}
+.solar div .themecolorflex .themecolordanger{        
+  background: #d33682;
+}
+.solar div .themecolorflex .themecolorinfo{        
+  background: #268bd2;
+}
+
+/*----------------------*/
+
+.united{
+  background: #e95420 !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.united div {
+  background: white;
+  color: black;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.united div .themecolorflex .themecolorprimary{       
+  background: #e95420;
+}
+
+.united div .themecolorflex .themecolorsecondary{       
+  background: #aea69f;
+}
+.united div .themecolorflex .themecolorsuccess{
+  background: #39b34a;
+}
+.united div .themecolorflex .themecolordanger{        
+  background: #de382d;
+}
+.united div .themecolorflex .themecolorinfo{        
+  background: #18a1b8;
+}
+
+/*----------------------*/
+
+.quartz{
+  background: #e83283 !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.quartz div {
+  background: #686dc3;
+  color: white;
+  font-family: 'system-ui';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.quartz div .themecolorflex .themecolorprimary{       
+  background: #e83283;
+}
+
+.quartz div .themecolorflex .themecolorsecondary{       
+  background: rgba(255, 255, 255, 0.4);
+}
+.quartz div .themecolorflex .themecolorsuccess{
+  background: #41d7a7;
+}
+.quartz div .themecolorflex .themecolordanger{        
+  background: #fd7e14;
+}
+.quartz div .themecolorflex .themecolorinfo{        
+  background: #39cbfb;
+}
+
+/*----------------------*/
+
+.sketchy{
+  background: #2b2b2b !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+}
+
+.sketchy div {
+  background: white;
+  color: black;
+  font-family: 'Neucha';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.sketchy div .themecolorflex .themecolorprimary{       
+  background: #333333;
+}
+
+.sketchy div .themecolorflex .themecolorsecondary{       
+  background: #555555;
+}
+.sketchy div .themecolorflex .themecolorsuccess{
+  background: #28a745;
+}
+.sketchy div .themecolorflex .themecolordanger{        
+  background: #dc3545;
+}
+.sketchy div .themecolorflex .themecolorinfo{        
+  background: #17a2b8;
+}
+
+/*----------------------*/
+
+.vapor{
+  background: #6f42c1 !important;
+  border-radius: 8px !important;
+  padding: 10px 7px !important;
+  border: none !important;
+  box-shadow: 0 0 2px rgba(111, 66, 193, 0.9), 0 0 4px rgba(111, 66, 193, 0.4), 0 0 1rem rgba(111, 66, 193, 0.3), 0 0 4rem rgba(111, 66, 193, 0.1);
+}
+
+.vapor div {
+  background: #1a0933;
+  color: white;
+  font-family: 'Oswald';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.vapor div .themecolorflex .themecolorprimary{       
+  background: #6f42c1;
+}
+
+.vapor div .themecolorflex .themecolorsecondary{       
+  background: #ea39b8;
+}
+.vapor div .themecolorflex .themecolorsuccess{
+  background: #3cf281;
+}
+.vapor div .themecolorflex .themecolordanger{        
+  background: #e44c55;
+}
+.vapor div .themecolorflex .themecolorinfo{        
+  background: #1ba2f6;
+}
